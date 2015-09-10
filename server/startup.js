@@ -1,6 +1,6 @@
 Meteor.startup(function(){
     if(Products.find().count() === 0){
-      Products.insert({thumb:'almondtoeshoes.jpeg',name:'Almond Toe Court Shoes,Patent Black',desc:'Almond Toe Court Shoes,Patent Black',price:99.00,catName:'women’s footwear'});
+      Products.insert({thumb:'almondtoeshoes.jpeg',name:'Almond Toe Court Shoes, Black',desc:'Almond Toe Court Shoes,Patent Black',price:99.00,catName:'women’s footwear'});
       Products.insert({thumb:'suedeshoes.jpeg',name:'Suede Shoes, Blue',desc:'Suede Shoes, Blue',price:42.00,catName:'women’s footwear'});
       Products.insert({thumb:'loafers.jpeg',name:'Leather Driver Saddle Loafers,Tan',desc:'Leather Driver Saddle Loafers,Tan',price:34.00,catName:'men’s footwear'});
       Products.insert({thumb:'flipflopr.jpeg',name:'Flip Flops, Red',desc:'Flip Flops, Red',price:19.00,catName:'men’s footwear'});
