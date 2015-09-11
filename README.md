@@ -63,6 +63,6 @@ Then navigate to http://localhost:3000
 ```
 ##Approach:
 
-I saw someone write: “Meteor is to Node.js as Rails is to Ruby.” and I think that’s a good time for trying new framework.
+I saw someone write: “Meteor is to Node.js as Rails is to Ruby” and I think that’s a good time for trying new framework.
 Meteor has real-time built into its core though. When the database is updated, the data in your templates is updated. When a user clicks a button or submits a form, the action occurs immediately. In the vast majority of cases, this doesn’t even require any extra effort. You build a web application as you normally would and, out of the box, it just happens to be real-time.
 
