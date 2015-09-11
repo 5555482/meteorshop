@@ -31,9 +31,6 @@ $ meteor
 $ meteor
 Then navigate to http://localhost:3000
 ```
-* Following user stories:
-
-
 * The retailer sells six different categories of clothes:
 ```
  women’s footwear
