@@ -25,7 +25,11 @@ As a User I am unable to Out of Stock products to the shopping cart.
 
 ##To run the app:
 
-Please make sure that you have meteor installed: curl https://install.meteor.com/ | sh 
+Please make sure that you have meteor installed: 
+```
+curl https://install.meteor.com/ | sh 
+```
+
 Then:
 ```
 git clone https://github.com/5555482/meteorshop.git
