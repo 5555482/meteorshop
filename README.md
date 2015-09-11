@@ -1,5 +1,7 @@
 #Responsive web site for a clothing retailer.
 
+![Picture 1](desktop/jj.png)
+
 ###Task
 
 * Following user stories:
