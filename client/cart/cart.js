@@ -17,9 +17,9 @@ Template.cart.helpers({
     });
     shopCart.subtotal = total;
     if (total >= 75) {
-        shopCart.discount = shopCart.subtotal - 15;
+        shopCart.discount = shopCart.subtotal - 15.00;
     } else if (total >= 50) {
-        shopCart.discount = shopCart.subtotal - 10;
+        shopCart.discount = shopCart.subtotal - 10.00;
     } else {
         shopCart.discount = shopCart.subtotal - 5.00;  
     }
