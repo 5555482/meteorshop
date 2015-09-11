@@ -23,13 +23,13 @@ As a User I am unable to Out of Stock products to the shopping cart.
 
 ```
 
-###To setup:
-```
-$ meteor
-```
+##To run the app:
 
-###To run app locally:
+Please make sure that you have meteor installed: curl https://install.meteor.com/ | sh 
+Then:
 ```
+git clone https://github.com/5555482/meteorshop.git
+cd meteorshop
 $ meteor
 Then navigate to http://localhost:3000
 ```
