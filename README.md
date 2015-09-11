@@ -1,6 +1,6 @@
 #Responsive web site for a clothing retailer.
 
-![Picture 1](public/jj.jpeg)
+![Picture 1](public/view.png)
 
 ###Task
 
