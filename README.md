@@ -1,11 +1,56 @@
+#Responsive web site for a clothing retailer.
 
-The retailer sells six different categories of clothes:
--1. women’s footwear,
--2. men’s footwear,
--3. women’s casualwear,
--4. men’s casualwear,
--5. women’s formalwear and
--6. men’s formalwear.
+[![Build Status](https://travis-ci.org/sanjsanj/takeaway-challenge-2.svg?branch=master)](https://travis-ci.org/sanjsanj/takeaway-challenge-2)  [![Coverage Status](https://coveralls.io/repos/sanjsanj/takeaway-challenge-2/badge.svg?branch=master&service=github)](https://coveralls.io/github/sanjsanj/takeaway-challenge-2?branch=master)  [![Code Climate](https://codeclimate.com/github/sanjsanj/takeaway-challenge-2/badges/gpa.svg)](https://codeclimate.com/github/sanjsanj/takeaway-challenge-2)
+
+###Task
+
+* Following user stories:
+
+```
+As a User I can add a product to my shopping cart.
+
+As a User I can remove a product from my shopping cart.
+
+As a User I can view the total price for the products in my shopping cart.
+
+As a User I can apply a voucher to my shopping cart.
+
+As a User I can view the total price for the products in my shopping cart with discounts applied.
+
+As a User I am alerted when I apply an invalid voucher to my shopping cart.
+
+As a User I am unable to Out of Stock products to the shopping cart.
+
+```
+
+###To setup:
+```
+$ meteor
+```
+
+###To run app locally:
+```
+$ rackup
+Then navigate to http://localhost:3000
+```
+* Following user stories:
+
+
+* The retailer sells six different categories of clothes:
+```
+ women’s footwear
+ 
+ men’s footwear
+ 
+ women’s casualwear
+ 
+ men’s casualwear
+ 
+ women’s formalwear 
+ 
+ men’s formalwear
+ 
+```
 
 ￼There are also discount vouchers available that can be redeemed. The discount vouchers are as follows:
 ● £5.00 off your order
