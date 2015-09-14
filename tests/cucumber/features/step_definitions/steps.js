@@ -8,6 +8,16 @@
 
     var helper = this;
 
+     this.Given(/^I am logged in$/, function (callback) {
+      this.client.
+      url(process.env.ROOT_URL).
+      waitForExist('body *').
+      waitForVisible('body *').
+      click('#login-sign-in-link').
+      setValue('#login-email', 'bob@gmail.com').
+      setValue('#login-password')
+    });
+
     this.Given(/^I am on the home page$/, function (callback) {
       helper.world.browser.
         url(helper.world.cucumber.mirror.rootUrl).
