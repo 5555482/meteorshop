@@ -12,3 +12,5 @@ accounts-password
 accounts-base
 accounts-ui
 iron:router
+xolvio:cucumber
+velocity:console-reporter
