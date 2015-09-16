@@ -14,3 +14,6 @@ accounts-ui
 iron:router
 xolvio:cucumber
 velocity:console-reporter
+sanjo:jasmine
+practicalmeteor:sinon
+velocity:html-reporter
