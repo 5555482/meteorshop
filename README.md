@@ -40,9 +40,7 @@ Then navigate to http://localhost:3000
 ```
 ##To run the test:
 ```
-meteor add sanjo:jasmine
-meteor add practicalmeteor:sinon
-meteor add velocity:html-reporter
+meteor add xolvio:cucumber
 ```
 
 
@@ -76,5 +74,5 @@ I saw someone write: “Meteor is to Node.js as Rails is to Ruby” and I think 
 Meteor has real-time built into its core though. When the database is updated, the data in your templates is updated. When a user clicks a button or submits a form, the action occurs immediately. In the vast majority of cases, this doesn’t even require any extra effort. You build a web application as you normally would and, out of the box, it just happens to be real-time.
 For testing I used Velocity.It is  a set of tools, which supports several frameworks like Jasmine, CasperJS, Cucumber, Mocha, Dredd & Robot. Velocity provides a mirror of an application with a separate database that can be used for testing. 
 Velocity also comes with two test runners, a HTML test runner and a console test runner.
-For my tests I’ve used Jasmine and Synon.js. Jasmine is a BDD testing framework, while Synon.js is a mocking framework. 
+For my tests I’ve used Cucumber.
 
